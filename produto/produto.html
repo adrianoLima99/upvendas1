@@ -1,0 +1,30 @@
+<div id="formularios">
+    <fieldset>
+        
+	<legend>Novo Veiculo</legend>
+    <form action="?pg=salveProduto" method="post" >
+	<table>
+    	
+       <tr>
+           <td>Veiculo:</td>
+           <td><input type="text" name="produto" id="produto" placeholder="Digite o produto" required/></td>
+      </tr>
+      <tr> 
+           <td> Valor:R$</td>
+          <td><input type="text" name="valor" id="valor"  onkeypress='reais(this,event);' onkeydown='backspace(this,event)' maxlength='15' placeholder="Digite o valor" required/></td>
+         <!-- <td><input type="text" name="valor" id="valor" maxlength='15' placeholder="Digite o valor" required/></td>-->
+      </tr>
+      <tr>
+          <td>Descrição:</td> <td><textarea rows="15" cols="35" name="descricao"></textarea></td>
+      </tr>
+      <tr>
+          <td>Ano:</td><td><input type="text" name="ano"  maxlength='4' placeholder="formato, ex: 9999" required/></td>
+      </tr>
+      <tr>     
+         
+       		<td><input type="submit" name="enviar" value="Cadastrar" class="botao"/></td>
+      </tr>    
+</table>    
+    </form>
+    </fieldset>      
+</div>
