@@ -1,0 +1,8 @@
+AjaxAC ChangeLog
+----------------
+
+2006-01-30  - Version 1.0a
+
+ - Removed all JavaScript generation and/or widget stuff
+ - Created new branch from previous 0.4.x release
+
